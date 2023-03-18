@@ -41,7 +41,7 @@ CREATE TABLE `utilisateurs` (
 --
 
 INSERT INTO `utilisateurs` (`id`, `pseudo`, `email`, `password`, `ip`, `date_inscription`) VALUES
-(1, 'jossua', 'jossufigueiras@icloud.com', '5d156281d7698688c631c0cbd062ccdbabf44134279c91835f025cfc414d25d0', '::1', '2023-02-05 14:43:01');
+(1, '###', '#####@icloud.com', '##############################', '#', '2023-02-05 14:43:01');
 
 --
 -- Index pour les tables déchargées
