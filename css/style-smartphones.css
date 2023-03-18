@@ -1,0 +1,303 @@
+/*def variable*/
+:root{
+    --ecriture: #575757;
+    --background: #fff;
+    --logo: url(img/logo-B.png);
+}
+.img1{
+    width: 80%;
+    height: 100px
+}
+/*def body*/
+body{
+    background-color: var(--background);
+    color: var(--ecriture);
+    margin: none;
+    max-width: 1366px ;
+    min-width: 1100px;
+    cursor: url("img/cursor.png"), pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*bannières gammes de produits*/
+.samsung{
+    max-width: 1280px;
+    min-width: 1100px;
+    width: 90%;
+    height: 500px;
+    background-image: url(img/bannière-samsung.png);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: var(--ecriture);
+    border-style: solid;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.iphone{
+    max-width: 1280px;
+    min-width: 1100px;
+    width: 90%;
+    height: 500px;
+    background-image: url(img/bannière-iphone.png);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: var(--ecriture);
+    border-style: solid;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Huawei{
+    max-width: 1280px;
+    min-width: 1100px;
+    width: 90%;
+    height: 500px;
+    background-image: url(img/bannière-huawei.png);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: var(--ecriture);
+    border-style: solid;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.h1-bannière-mac{
+    width: 350px;
+    height: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 60px;
+    margin-left: 900px;
+    margin-right: 5px;
+}
+.h1-bannière-bureautique{
+    width: 350px;
+    height: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h1-bannière-gaming{
+    width: 350px;
+    height: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 40px;
+    margin-left: 510px;
+    margin-right: auto;
+}
+/*footer*/
+footer{
+    background-color: var(--background);
+    color: var(--ecriture);
+    width: 100%;
+    height: 100px;
+    text-decoration: none;
+    text-decoration: var(--ecriture);
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.----{
+    margin-top: 100px;
+    border-radius: 20px;
+    width: 90%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--ecriture);
+}
+.footer-1{
+    display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    color: var(--ecriture);
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-1:hover{
+    display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    color: var(--ecriture);
+    font-weight: bold;
+    text-decoration: underline;
+}
+.--{
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 70%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--ecriture);
+}
+.footer-2{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    color: var(--ecriture);
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+    
+.foot2{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+    color: var(--ecriture);
+}
+.end{
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 60%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--background);
+}
+.credits{
+    color:var(--ecriture);
+    display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 55%;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.mac-titre{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.mac-titre-2{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.mac-titre-3{
+    margin-top: 25px;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.mac-p{
+    margin-top: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+.separation{
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 90%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--ecriture);
+}
+.img-1{
+    margin-top: 280px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: auto;
+}
+.img-1.scroll{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: auto;
+    transition: 1500ms ease-in-out;
+}
+.macbook-air{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0;
+}
+.space{
+    margin: 0;
+    width: 100%;
+    height: 60px;
+}
+.pro{
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    background-color: #000;
+    color: #fff;
+}
+.img-pro{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+}
+.apple-link{
+    border: #000 15px;
+    border-radius: 10/5;
+}
+.apple-link-img{
+    width: 150px;
+    height: auto;
+}
+.img-pro-2{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    padding-bottom: 120px;
+}
+.studio{
+    padding-top: 50px;
+}
+.img-studio{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+}

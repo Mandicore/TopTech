@@ -1,0 +1,101 @@
+body{
+    background-color: #000;
+    margin: 0px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    cursor: url("img/cursor2.png"), pointer;   
+}
+.bloc{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.bloc video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -100;
+}
+.logo-p{
+    margin-top: 200px;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.button-z{
+    color: #fff;
+    background-color: black;
+    border: #fff solid;
+    border-radius: 40px;
+    width: 10%;
+    height: auto;
+    z-index: -10px;
+    margin: 500px;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 10px;
+}
+.button-z:hover{
+    color: #fff;
+    background-image: linear-gradient(to right,  #26a0da  51%, #314755  100%);
+    border: #fff solid;
+    border-radius: 40px;
+    width: 10%;
+    height: auto;
+    z-index: -10px;
+    margin: 500px;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 10px;
+    transition: 500ms;
+}
+.bloc a{
+    font-size: 15px;
+    color:#fff
+}
+.s22-img{
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: auto;
+
+}
+.h1-samsung{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+}
+.bottom-line-2{
+    width: 85%;
+    height: 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+  }
+  .samsung-p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+  }
+  .link-img{
+    width: 150px;
+    height: auto;
+}
+#popup-S22{
+    color:#000;
+}
+#popup-Z{
+    color:#000;
+}

@@ -1,0 +1,70 @@
+.box{
+    width: 320px;
+    margin: 10px auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: none;
+    padding: none;
+    border: none;
+    border-radius: 20px/50px;
+}
+.button{
+    margin: 40px;
+    font-size: 1rem;
+    padding: 15px;
+    color: #000;
+    border: none;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: url("img/cursor2.png"), pointer;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+.button:hover{
+    background: #333;
+    color: #fff;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+    transition: opacity 1s;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+.popup{
+    margin: 6rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+.popup .cross{
+    padding: 10px;
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+    color: #333;
+    cursor: url("img/cursor2.png"), pointer;
+}
+.popup li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: -20px;
+}
+.popup hr{
+    width: 100%;
+}

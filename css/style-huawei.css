@@ -1,0 +1,71 @@
+/*def variable*/
+:root{
+    --ecriture: #575757;
+    --background: #fff;
+    --logo: url(img/logo-B.png);
+    --test: #000;
+}
+.img1{
+    width: 80%;
+    height: 100px
+}
+/*def body*/
+body{
+    background-color: rgb(89, 124, 44);
+    color: var(--ecriture);
+    margin: none;
+    max-width: 1366px ;
+    min-width: 1100px;
+    cursor: url("img/cursor.png"), pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first{
+    width: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: auto;
+    margin-top: 30px;
+}
+.img-1{
+    margin-top: none;
+    width: 30%;
+    height: auto;
+    margin-left: none;
+    margin-right: none;
+    height: auto;
+}
+.img-1.scroll{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: auto;
+    transition: 3000ms ease-in-out;
+    overflow-y: scroll;
+}
+img{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: auto;
+    margin-top: 20px;
+}
+h1{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+}
+.apple-link{
+    border: #000 15px;
+    border-radius: 10/5;
+}
+.link-img{
+    width: 150px;
+    height: auto;
+}

@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bloc{
+    margin-top: 40px;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.bloc video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -100;
+}
+.bottom-line-2{
+    width: 85%;
+    height: 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+  }
+  .samsung-p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+  }
+  #Z-flip4{
+    transition: 1000ms;
+  }
+button{
+    cursor: url("img/cursor2.png"), pointer;   
+}
+.bloc{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.bloc video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -100;
+}
+.button-14{
+    color: #fff;
+    background-color: black;
+    border: #fff solid;
+    border-radius: 40px;
+    width: 10%;
+    height: auto;
+    z-index: -10px;
+    margin: 500px;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 10px;
+}
+.button-14:hover{
+    color: #fff;
+    background-image: linear-gradient(to right,  rgb(141, 87, 151)  51%, #314755  100%);
+    border: #fff solid;
+    border-radius: 40px;
+    width: 10%;
+    height: auto;
+    z-index: -10px;
+    margin: 500px;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 10px;
+    transition: 500ms;
+}
+.bloc a{
+    font-size: 15px;
+    color:#fff
+}
+/*footer*/
+footer{
+    background-color: var(--background);
+    color: var(--ecriture);
+    width: 100%;
+    height: 100px;
+    text-decoration: none;
+    text-decoration: var(--ecriture);
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.----{
+    margin-top: 100px;
+    border-radius: 20px;
+    width: 90%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--ecriture);
+}
+.footer-1{
+    display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    color: var(--ecriture);
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-1:hover{
+    display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    color: var(--ecriture);
+    font-weight: bold;
+    text-decoration: underline;
+}
+.--{
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 70%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--ecriture);
+}
+.footer-2{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    color: var(--ecriture);
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+    
+.foot2{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+    color: var(--ecriture);
+}
+.end{
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 60%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--background);
+}
+.credits{
+    color:var(--ecriture);
+    display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 55%;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.i14 .iphone14{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: auto;
+    margin-top: 100px;
+}
+.i14 h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+}
+.i14 p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+}
+.se{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(59, 59, 59);
+    border-radius: 40px;
+    color: rgb(141, 87, 151);
+    padding-bottom: 40px;
+}
+.se img{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: auto;
+    margin-top: 50px;
+}
+.se h1{
+    padding-top: 100px;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 60px;
+}
+.se p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+}
+.apple-link{
+    border: #000 15px;
+    border-radius: 10/5;
+}
+.link-img{
+    width: 150px;
+    height: auto;
+}

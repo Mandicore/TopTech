@@ -1,0 +1,227 @@
+:root{
+  --ecriture: #000;
+  --background: #fff;
+  --logo: url(img/logo-B.png);
+}
+body{
+  margin: 0;
+}
+  header {
+    font-size: 35px;
+    color: var(--ecriture) ;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 80px;
+    background-color: var(--background);
+    align-items: center;
+    display: flex;
+    border-radius: 0;
+    cursor: url("img/cursor.png"), pointer;
+    }
+    header .dropdown-1 {
+          height: 100%;
+      }
+    header .dropdown-1 .content {
+          display: none;
+      }
+    header .dropdown-1:hover .content {
+          display: block;
+          flex-direction: column;
+          position: absolute;
+          background-color: var(--ecriture);
+          opacity: 90%;
+          top: 120px;
+          width: 500px;
+          height: 100%;
+          border-bottom-right-radius: 5%;
+          border-top-right-radius: 5%;
+          margin-left: 0;
+          border-right-style: solid;
+          border-top-style: solid;
+          border-top-color: var(--ecriture);
+          border-right-color: var(--ecriture);
+          z-index: 100;
+      }
+    .header-text{
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 50px;
+      }
+   header ul li{
+        margin-top: 40px;
+        color: var(--background);
+        font-size: 30px;
+        height: 100%;
+        width: 250px;
+        text-align: center;
+        margin-left: 40px;
+        list-style-type:none;
+      }
+      header hr{
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+        margin-top: 5%;
+        width: 325px;
+      }
+      header a{
+        color:var(--background);
+        text-decoration: none;
+        cursor: url("img/cursor2.png"), pointer;   
+    }
+    .xbox:hover {
+      color:var(--background);
+      text-decoration: none;
+      color: rgb(19, 230, 19);
+      transition: 400ms ease-in-out;
+      cursor: url("img/cursor2.png"), pointer;   
+  }
+  .playstation:hover {
+    color:var(--background);
+    text-decoration: none;
+    color: rgb(19, 23, 230);
+    transition: 400ms ease-in-out;
+    cursor: url("img/cursor2.png"), pointer;   
+}
+.switch:hover {
+  color:var(--background);
+  text-decoration: none;
+  color: rgb(230, 19, 19);
+  transition: 400ms ease-in-out;
+  cursor: url("img/cursor2.png"), pointer;   
+}
+.accueil:hover {
+  color:var(--background);
+  text-decoration: none;
+  color: rgb(88, 88, 88);
+  transition: 400ms ease-in-out;
+  cursor: url("img/cursor2.png"), pointer;   
+}
+    .button-head{
+        width: 160px;
+        height: 70px;
+        margin-left: auto;
+        margin-right: 45%;
+        background-image: var(--logo);
+        background-size: 160px 65px;
+        margin-bottom: 10px;
+        background-repeat: no-repeat;
+        border: none;
+    }
+    .logo-img{
+      height: 50px;
+      width: 80px;
+    }
+    .logo-HL{
+      margin-left: 100px;
+      margin-bottom: 40px;
+      height: 55px;
+      width: 110px;
+      background-image: var(--logo);
+      background-size: 80px 50px;
+      margin-bottom: 10px;
+    }
+    .bottom-line{
+      width: 85%;
+      height: 3px;
+      margin-top: 10px;
+      margin-bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: var(--ecriture);
+    }
+    button{
+      padding: 7px;
+      margin-top: 10px;
+      background: none;
+      border: none;
+      border-radius: 7%;
+  }
+  #button-theme{
+      margin-left: 95%;
+      font-size: 25px;
+      cursor: url("img/cursor2.png"), pointer;
+  }
+  /*playstation*/
+  .playstation header{
+    font-size: 35px;
+    color: #fff ;
+    padding-top: 10px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    align-items: center;
+    display: flex;
+    border-radius: 0;
+    cursor: url("img/cursor.png"), pointer;
+  }
+  .playstation .button-head{
+    width: 160px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: 45%;
+    background-image: url(img/logo-W.png);
+    background-size: 160px 65px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    border: none;
+}
+.xbox header{
+  font-size: 35px;
+  color: #fff ;
+  padding-top: 10px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+  align-items: center;
+  display: flex;
+  border-radius: 0;
+  cursor: url("img/cursor.png"), pointer;
+}
+.xbox .button-head{
+  width: 160px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: 45%;
+  background-image: url(img/logo-W.png);
+  background-size: 160px 65px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  border: none;
+}
+.switch header{
+  font-size: 35px;
+  color: #fff ;
+  padding-top: 10px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+  align-items: center;
+  display: flex;
+  border-radius: 0;
+  cursor: url("img/cursor.png"), pointer;
+}
+.switch .button-head{
+  width: 160px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: 45%;
+  background-image: url(img/logo-W.png);
+  background-size: 160px 65px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  border: none;
+}

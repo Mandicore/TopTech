@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(61, 61, 145, 0.541);
+    text-align: center;
+    cursor: url("img/cursor.png"), pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+    font-size: 20px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    cursor: url("img/cursor2.png"), pointer;
+}
+a:hover{
+    text-decoration: underline #000;
+    transition: 1000ms;
+}
+button{
+    width: 12%;
+    margin-right: 44%;
+    margin-left: 44%;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    background-color: #00000000;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: url("img/cursor2.png"), pointer;
+}
+button:hover{
+    background-color: #00000088;
+    transition: 1000ms;
+}
+img{
+    margin-top: 20px;
+    width: 4%;
+    margin-left: auto +10px;
+    margin-right: auto +10px;
+}
